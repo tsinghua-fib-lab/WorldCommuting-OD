@@ -1,0 +1,2 @@
+# Ignore all files and subdirectories in the process_code_ignore directory
+process_code_ignore/ 
