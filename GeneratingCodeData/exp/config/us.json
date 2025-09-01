@@ -1,0 +1,53 @@
+{
+    "exp_name": "US2world",
+
+    "exp_path" : "exp/",
+    "data_path" : "data/US/",
+    "shuffle_cities" : 0,
+
+    "check_device" : 0,
+    "device" : 2,
+
+    "mode" : "EVAL",
+
+    "attr_MinMax" : 1,
+    "od_MinMax" : 1,
+    "skew_norm" : "log",
+
+    "pert_node" : 1,
+
+    "sample_method" : "DDIM",
+
+    "valid_period" : 10,
+    "overfit_tolerance" : 100,
+    
+    "hiddim" : 32,
+    "num_head" : 4,
+    "num_head_cross" : 1,
+    "num_layer" : 4,
+    "dropout" : 0,
+
+    "p_generation" : 1,
+
+    "test_specific": 1,
+    "train_set": 0.9,
+    "valid_set": 0.1,
+
+    "T": 250,
+    "DDIM_T_sample" : 25,
+    "sample_times" : 100,
+    "DDIM_eta" : 0, 
+    "beta_scheduler" : "cosine",
+
+    "EPOCH" : 10000000000,
+    "max_nodes" : 3000,
+    "LaPE_dim" : 0,
+    "batch_size" : 32,
+    "norm_type" : "layer",
+    "learning_rate": 1e-3,
+    "optm" : "AdamW",
+    "loss" : "mse",
+
+    "random_seed" : 666,
+    "mem_need" : 81900
+}
