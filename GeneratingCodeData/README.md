@@ -35,6 +35,7 @@ GeneratingCodeData/
 
 1. Configure experiment parameters in `exp/config/`
 2. Prepare data in the required format under `data/`
+   - The data for training the model can be accessed [here](https://github.com/tsinghua-fib-lab/CommutingODGen-Dataset/tree/main).
 3. Run training: `python code/main.py`
 
 ## Dependencies
